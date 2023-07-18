@@ -1,5 +1,7 @@
 /* mobile device */
 @media screen and (max-width: 576px) {
+
+    /* nav section */
     .nav-bar {
         flex-direction: column;
         align-items: center;
@@ -14,9 +16,28 @@
         flex-direction: column;
         margin-top: 30px;
     }
+
     .nav-container .follow-us-section {
         width: 220px;
     }
+
+    /* banner section */
+    .banner-section{
+        background: none;
+    }
+    .banner{
+        margin: 50px 0;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .banner-description p {
+        padding-top: 16px;
+        font-size: 16px;
+    }
+    .banner-img img{
+        width: 350px;
+    }
+
 }
 
 
@@ -39,4 +60,18 @@
         align-items: center;
         width: 100%;
     }
+
+    .banner-section {
+        background: none;
+    }
+
+    .banner {
+        margin-top: 50px;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 500px;
+    }
+
 }
