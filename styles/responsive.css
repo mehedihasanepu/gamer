@@ -1,0 +1,42 @@
+/* mobile device */
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar .nav-title {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-bar .nav-container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .nav-container .follow-us-section {
+        width: 220px;
+    }
+}
+
+
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar .nav-title {
+        justify-content: center;
+
+    }
+
+    .nav-bar .nav-container {
+        margin-top: 15px;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
