@@ -284,16 +284,82 @@ body {
     border-radius: 50px;
     background: #FFF;
 }
-.game-zoon .game-group img{
+
+.game-zoon .game-group img {
     width: 20%;
     object-fit: cover;
     padding-right: 5px;
 }
-.game-zoon .game-group p{
+
+.game-zoon .game-group p {
     font-size: 14px;
     font-weight: 600;
 }
-.game-group:hover{
+
+.game-group:hover {
     border: 3px solid #FF42A5;
     color: #FF42A5;
+}
+
+
+/* footer section styles */
+footer{
+    background-color: #0B0223;
+}
+.footer-section {
+    text-align: center;
+    padding: 70px;
+}
+
+.footer-section .nav-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.footer-section .services,
+.footer-icons,
+.terms-conditions,
+.copyright {
+    padding-top: 30px;
+}
+
+.footer-section .services,
+.terms-conditions,
+.footer-icons {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-section .services {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer-section .services li{
+    padding-left: 50px;
+}
+
+.footer-section .terms-conditions {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-section .terms-conditions li{
+    padding-left: 50px;
+}
+
+.footer-icons li {
+    color: white;
+    font-size: 35px;
+    padding-left: 30px;
+}
+.footer-section .copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 400;
 }
