@@ -62,6 +62,7 @@
     .online-game-cards .card {
         margin-bottom: 50px;
     }
+
     /* play game section */
     .play-game {
         flex-direction: column-reverse;
@@ -69,22 +70,60 @@
         margin: 0 auto;
         padding: 50px;
     }
+
     .play-game-images .play-game-img-2 {
         top: 80px;
         right: 50px;
     }
-    .play-game-images{
+
+    .play-game-images {
         width: 100%;
         text-align: center;
         margin-left: 80px;
     }
+
     .play-game-content {
-        width: 80%;
+        width: 70%;
         text-align: center;
         margin-bottom: 50px;
     }
+
     .play-game-content h2 {
-        font-size: 25px;
+        font-size: 22px;
+    }
+
+    /* game zoom section */
+    .game-zoon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .game-zoon .game-group {
+        gap: 0px;
+        width: auto;
+        height: auto;
+        padding: 5px 0;
+        border-radius: 40px;
+        background: #FFF;
+        justify-content: space-evenly;
+        /* text-align: center; */
+    }
+
+    .game-zoon .game-group img {
+        width: 20%;
+        object-fit: cover;
+        padding-right: 3px;
+    }
+
+    .game-zoon .game-group p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .game-group:hover{
+        border: 2px solid #FF42A5;
+        color: #FF42A5;
     }
 }
 
@@ -150,17 +189,21 @@
         margin: 0 auto;
         padding: 50px;
     }
+
     .play-game-images .play-game-img-1 {
         width: 110%;
         object-fit: cover;
     }
+
     .play-game-images .play-game-img-2 {
         top: 120px;
         right: 30px;
     }
+
     .play-game-content {
         width: 100%;
     }
+
     .play-game-content h2 {
         font-size: 25px;
     }
