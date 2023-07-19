@@ -51,8 +51,11 @@
     .online-game-cards {
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
+        margin-left: 20px;
     }
-
+    .online-game-cards .card{
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -100,6 +103,10 @@
     .online-game-cards {
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
+        margin-left: 45px;
+    }
+    .online-game-cards .card{
+        margin-bottom: 40px;
     }
 
 }
