@@ -51,6 +51,7 @@
     .online-game {
         max-width: 400px;
         margin: 0 auto;
+        text-align: center;
     }
 
     .online-game-cards {
@@ -96,7 +97,7 @@
     .game-zoon {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        max-width: 400px;
+        max-width: 340px;
         margin: 30px auto;
     }
 
@@ -147,7 +148,7 @@
     .footer-section .services {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
     }
 
@@ -160,11 +161,11 @@
         padding: 40px 30px 20px 10px;
     }
     .footer-icons li {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .footer-section .terms-conditions {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -174,7 +175,7 @@
         padding-left: 10px;
     }
     .footer-section .copyright {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 400;
         padding-bottom: 30px;
     }
@@ -236,7 +237,6 @@
     .online-game-cards .card {
         margin-bottom: 40px;
     }
-
     /* play game section */
     .play-game {
         max-width: 750px;
